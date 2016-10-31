@@ -1,11 +1,12 @@
 Shadow Warrior 2 profile for the Corsair Scimitar mouse:
-- Buttons 1-3: melee weapons
-- Buttons 4-6: ranged weapons, from lightest (gun) to heaviest (bazooka or grenade launcher or heavy machine gun)
-- Buttons 7-8: chi powers
-- Button 9: long ranged weapon (sniper or bow)
-- Button 10: menu
+- Buttons 1-3 (keyboard 1-3): melee weapons, from lightest (sword) to heaviest (chainsaw)
+- Buttons 4-6 (keyboard 8-6): ranged weapons, from lightest (gun) to heaviest (grenade launcher or heavy machine gun)
+- Buttons 7-8 (keyboard z-x): chi powers
+- Button 9 (keyboard 5): long ranged weapon (sniper or bow)
+- Button 10 (keyboard i): inventory/menu
 - Buttons 11-12: free
 The idea is putting your melee weapons on the right of the weapon wheel (starting from the first one) and your ranged ones on the left.
 Not every weapon is on the mouse, I noticed that I wasn't using more than 7 weapons anyway.
 Only two powers are used (x and c), q for healing was easy already to reach.
-I finished the game with these settings and I was (very) comfortable with them
+Button 9 is kept for the sniping weapon of your choice, very useful to have it separated since I always started with that.
+I finished the game with these settings and I was (very) comfortable with them. Enjoy SW2!
