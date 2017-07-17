@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cereal>
 	<value0>
-		<cereal_class_version>0</cereal_class_version>
+		<cereal_class_version>102</cereal_class_version>
 		<profile>
 			<cereal_class_version>201</cereal_class_version>
 			<name>Dota 2</name>
 			<id>{f2a2ff59-ed93-4497-94ed-67c2a11bbe42}</id>
-			<iconUrl>file:///C:/Users/User/AppData/Roaming/Corsair/CUE/profiles/%7Bf2a2ff59-ed93-4497-94ed-67c2a11bbe42%7D_icon.png</iconUrl>
-			<linkedProgramPath></linkedProgramPath>
+			<iconUrl></iconUrl>
+			<linkedProgramPath>C:/Program Files (x86)/Steam/steamapps/common/dota 2 beta/game/bin/win64/dota2.exe</linkedProgramPath>
 			<backgroundImageUrl></backgroundImageUrl>
 			<blurBackgroundImage>false</blurBackgroundImage>
 			<tabsTransparencyEnabled>false</tabsTransparencyEnabled>
@@ -23,7 +23,7 @@
 								<ptr_wrapper>
 									<valid>1</valid>
 									<data>
-										<cereal_class_version>201</cereal_class_version>
+										<cereal_class_version>202</cereal_class_version>
 										<base>
 											<cereal_class_version>200</cereal_class_version>
 										</base>
@@ -31,15 +31,15 @@
 											<value0>
 												<first>
 													<polymorphic_id>2147483650</polymorphic_id>
-													<polymorphic_name>MacroAction</polymorphic_name>
+													<polymorphic_name>KeyRemapAction</polymorphic_name>
 													<ptr_wrapper>
 														<id>2147483649</id>
 														<data>
-															<cereal_class_version>200</cereal_class_version>
+															<cereal_class_version>203</cereal_class_version>
 															<base>
-																<cereal_class_version>201</cereal_class_version>
-																<name>Macro 2</name>
-																<id>{3aa9ba70-986d-4fd8-8592-a22a851debfa}</id>
+																<cereal_class_version>202</cereal_class_version>
+																<name>Runa Top</name>
+																<id>{da3a621a-f51d-42fa-b8fd-f908c548082d}</id>
 																<repeatOptions>
 																	<cereal_class_version>200</cereal_class_version>
 																	<repeatCount>1</repeatCount>
@@ -50,276 +50,38 @@
 																	<randomDelayTo>0</randomDelayTo>
 																</repeatOptions>
 																<executionHints>
-																	<cereal_class_version>200</cereal_class_version>
+																	<cereal_class_version>201</cereal_class_version>
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
-																	<restartOnSecondExec>true</restartOnSecondExec>
-																	<execHint>OnPress</execHint>
+																	<restartOnSecondExec>false</restartOnSecondExec>
+																	<execHint>OnBoth</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
 																<attachedActions size="dynamic"/>
 															</base>
-															<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
-															<terminationMethod>Interrupt</terminationMethod>
-															<highPriority>false</highPriority>
-															<events size="dynamic">
-																<value0>
-																	<polymorphic_id>2147483651</polymorphic_id>
-																	<polymorphic_name>KeyboardMacroActionEvent</polymorphic_name>
-																	<ptr_wrapper>
-																		<id>2147483650</id>
-																		<data>
-																			<cereal_class_version>200</cereal_class_version>
-																			<base>
-																				<cereal_class_version>200</cereal_class_version>
-																			</base>
-																			<keys size="dynamic">
-																				<value0>B</value0>
-																			</keys>
-																			<sub>KeyPress</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value0>
-																<value1>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483651</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>E</value0>
-																			</keys>
-																			<sub>KeyPress</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value1>
-																<value2>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483652</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>B</value0>
-																			</keys>
-																			<sub>KeyRelease</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value2>
-																<value3>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483653</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>E</value0>
-																			</keys>
-																			<sub>KeyRelease</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value3>
-																<value4>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483654</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>L</value0>
-																			</keys>
-																			<sub>KeyPress</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value4>
-																<value5>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483655</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>L</value0>
-																			</keys>
-																			<sub>KeyRelease</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value5>
-																<value6>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483656</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>L</value0>
-																			</keys>
-																			<sub>KeyPress</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value6>
-																<value7>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483657</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>L</value0>
-																			</keys>
-																			<sub>KeyRelease</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value7>
-																<value8>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483658</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>A</value0>
-																			</keys>
-																			<sub>KeyPress</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value8>
-																<value9>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483659</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>A</value0>
-																			</keys>
-																			<sub>KeyRelease</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value9>
-																<value10>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483660</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>Space</value0>
-																			</keys>
-																			<sub>KeyPress</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value10>
-																<value11>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483661</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>Space</value0>
-																			</keys>
-																			<sub>KeyRelease</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value11>
-																<value12>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483662</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>V</value0>
-																			</keys>
-																			<sub>KeyPress</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value12>
-																<value13>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483663</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>E</value0>
-																			</keys>
-																			<sub>KeyPress</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value13>
-																<value14>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483664</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>V</value0>
-																			</keys>
-																			<sub>KeyRelease</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value14>
-																<value15>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483665</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>E</value0>
-																			</keys>
-																			<sub>KeyRelease</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value15>
-																<value16>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483666</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>Z</value0>
-																			</keys>
-																			<sub>KeyPress</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value16>
-																<value17>
-																	<polymorphic_id>3</polymorphic_id>
-																	<ptr_wrapper>
-																		<id>2147483667</id>
-																		<data>
-																			<base/>
-																			<keys size="dynamic">
-																				<value0>Z</value0>
-																			</keys>
-																			<sub>KeyRelease</sub>
-																		</data>
-																	</ptr_wrapper>
-																</value17>
-															</events>
+															<keyName>Keypad7</keyName>
+															<keyStroke size="dynamic"/>
+															<holdingKeyEnabled>false</holdingKeyEnabled>
+															<holdingKeyType>OnPress</holdingKeyType>
+															<holdingKeyOnPressInterval>100</holdingKeyOnPressInterval>
+															<sniperSwitchMode>WhilePressed</sniperSwitchMode>
 														</data>
 													</ptr_wrapper>
 												</first>
 												<second>
-													<first>MouseG1</first>
+													<first>MouseG6</first>
 													<second>Click</second>
 												</second>
 											</value0>
 											<value1>
 												<first>
-													<polymorphic_id>2147483652</polymorphic_id>
-													<polymorphic_name>KeyRemapAction</polymorphic_name>
+													<polymorphic_id>2</polymorphic_id>
 													<ptr_wrapper>
-														<id>2147483668</id>
+														<id>2147483650</id>
 														<data>
-															<cereal_class_version>201</cereal_class_version>
 															<base>
-																<name>Runa Top</name>
+																<name>Attacco Forzato</name>
 																<id>{da3a621a-f51d-42fa-b8fd-f908c548082d}</id>
 																<repeatOptions>
 																	<repeatCount>1</repeatCount>
@@ -333,123 +95,31 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnBoth</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
 																<attachedActions size="dynamic"/>
 															</base>
-															<keyName>Keypad7</keyName>
+															<keyName>O</keyName>
 															<keyStroke size="dynamic"/>
-															<command>
-																<polymorphic_id>2</polymorphic_id>
-																<ptr_wrapper>
-																	<id>2147483669</id>
-																	<data>
-																		<base>
-																			<name></name>
-																			<id>{90a8e3b7-f97b-4bc7-af3b-4403a16b7470}</id>
-																			<repeatOptions>
-																				<repeatCount>1</repeatCount>
-																				<repeatMode>NoRepeat</repeatMode>
-																				<delay>0</delay>
-																				<delayMode>Constant</delayMode>
-																				<randomDelayFrom>0</randomDelayFrom>
-																				<randomDelayTo>0</randomDelayTo>
-																			</repeatOptions>
-																			<executionHints>
-																				<terminateOnSecondExec>false</terminateOnSecondExec>
-																				<restartOnSecondExec>true</restartOnSecondExec>
-																				<execHint>OnPress</execHint>
-																			</executionHints>
-																			<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																			<actionSoundPath></actionSoundPath>
-																			<attachedActions size="dynamic"/>
-																		</base>
-																		<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
-																		<terminationMethod>Interrupt</terminationMethod>
-																		<highPriority>true</highPriority>
-																		<events size="dynamic">
-																			<value0>
-																				<polymorphic_id>3</polymorphic_id>
-																				<ptr_wrapper>
-																					<id>2147483670</id>
-																					<data>
-																						<base/>
-																						<keys size="dynamic">
-																							<value0>Keypad7</value0>
-																						</keys>
-																						<sub>KeyPress</sub>
-																					</data>
-																				</ptr_wrapper>
-																			</value0>
-																		</events>
-																	</data>
-																</ptr_wrapper>
-															</command>
-															<commandKeyReleased>
-																<polymorphic_id>2</polymorphic_id>
-																<ptr_wrapper>
-																	<id>2147483671</id>
-																	<data>
-																		<base>
-																			<name></name>
-																			<id>{d8398d8b-6580-4be7-9e40-5c1507bca79a}</id>
-																			<repeatOptions>
-																				<repeatCount>1</repeatCount>
-																				<repeatMode>NoRepeat</repeatMode>
-																				<delay>0</delay>
-																				<delayMode>Constant</delayMode>
-																				<randomDelayFrom>0</randomDelayFrom>
-																				<randomDelayTo>0</randomDelayTo>
-																			</repeatOptions>
-																			<executionHints>
-																				<terminateOnSecondExec>false</terminateOnSecondExec>
-																				<restartOnSecondExec>true</restartOnSecondExec>
-																				<execHint>OnPress</execHint>
-																			</executionHints>
-																			<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																			<actionSoundPath></actionSoundPath>
-																			<attachedActions size="dynamic"/>
-																		</base>
-																		<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
-																		<terminationMethod>Interrupt</terminationMethod>
-																		<highPriority>true</highPriority>
-																		<events size="dynamic">
-																			<value0>
-																				<polymorphic_id>3</polymorphic_id>
-																				<ptr_wrapper>
-																					<id>2147483672</id>
-																					<data>
-																						<base/>
-																						<keys size="dynamic">
-																							<value0>Keypad7</value0>
-																						</keys>
-																						<sub>KeyRelease</sub>
-																					</data>
-																				</ptr_wrapper>
-																			</value0>
-																		</events>
-																	</data>
-																</ptr_wrapper>
-															</commandKeyReleased>
 															<holdingKeyEnabled>false</holdingKeyEnabled>
 															<holdingKeyType>OnPress</holdingKeyType>
 															<holdingKeyOnPressInterval>100</holdingKeyOnPressInterval>
-															<programPath></programPath>
 															<sniperSwitchMode>WhilePressed</sniperSwitchMode>
 														</data>
 													</ptr_wrapper>
 												</first>
 												<second>
-													<first>MouseG6</first>
+													<first>MouseG11</first>
 													<second>Click</second>
 												</second>
 											</value1>
 											<value2>
 												<first>
-													<polymorphic_id>4</polymorphic_id>
+													<polymorphic_id>2</polymorphic_id>
 													<ptr_wrapper>
-														<id>2147483673</id>
+														<id>2147483651</id>
 														<data>
 															<base>
 																<name>Runa Bottom</name>
@@ -466,6 +136,7 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnBoth</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
@@ -473,102 +144,9 @@
 															</base>
 															<keyName>Keypad8</keyName>
 															<keyStroke size="dynamic"/>
-															<command>
-																<polymorphic_id>2</polymorphic_id>
-																<ptr_wrapper>
-																	<id>2147483674</id>
-																	<data>
-																		<base>
-																			<name></name>
-																			<id>{42d16962-1d6f-4446-97e6-0d9ef48ab9dd}</id>
-																			<repeatOptions>
-																				<repeatCount>1</repeatCount>
-																				<repeatMode>NoRepeat</repeatMode>
-																				<delay>0</delay>
-																				<delayMode>Constant</delayMode>
-																				<randomDelayFrom>0</randomDelayFrom>
-																				<randomDelayTo>0</randomDelayTo>
-																			</repeatOptions>
-																			<executionHints>
-																				<terminateOnSecondExec>false</terminateOnSecondExec>
-																				<restartOnSecondExec>true</restartOnSecondExec>
-																				<execHint>OnPress</execHint>
-																			</executionHints>
-																			<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																			<actionSoundPath></actionSoundPath>
-																			<attachedActions size="dynamic"/>
-																		</base>
-																		<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
-																		<terminationMethod>Interrupt</terminationMethod>
-																		<highPriority>true</highPriority>
-																		<events size="dynamic">
-																			<value0>
-																				<polymorphic_id>3</polymorphic_id>
-																				<ptr_wrapper>
-																					<id>2147483675</id>
-																					<data>
-																						<base/>
-																						<keys size="dynamic">
-																							<value0>Keypad8</value0>
-																						</keys>
-																						<sub>KeyPress</sub>
-																					</data>
-																				</ptr_wrapper>
-																			</value0>
-																		</events>
-																	</data>
-																</ptr_wrapper>
-															</command>
-															<commandKeyReleased>
-																<polymorphic_id>2</polymorphic_id>
-																<ptr_wrapper>
-																	<id>2147483676</id>
-																	<data>
-																		<base>
-																			<name></name>
-																			<id>{07d13cd0-ddd2-4a50-9553-16dd6c471003}</id>
-																			<repeatOptions>
-																				<repeatCount>1</repeatCount>
-																				<repeatMode>NoRepeat</repeatMode>
-																				<delay>0</delay>
-																				<delayMode>Constant</delayMode>
-																				<randomDelayFrom>0</randomDelayFrom>
-																				<randomDelayTo>0</randomDelayTo>
-																			</repeatOptions>
-																			<executionHints>
-																				<terminateOnSecondExec>false</terminateOnSecondExec>
-																				<restartOnSecondExec>true</restartOnSecondExec>
-																				<execHint>OnPress</execHint>
-																			</executionHints>
-																			<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																			<actionSoundPath></actionSoundPath>
-																			<attachedActions size="dynamic"/>
-																		</base>
-																		<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
-																		<terminationMethod>Interrupt</terminationMethod>
-																		<highPriority>true</highPriority>
-																		<events size="dynamic">
-																			<value0>
-																				<polymorphic_id>3</polymorphic_id>
-																				<ptr_wrapper>
-																					<id>2147483677</id>
-																					<data>
-																						<base/>
-																						<keys size="dynamic">
-																							<value0>Keypad8</value0>
-																						</keys>
-																						<sub>KeyRelease</sub>
-																					</data>
-																				</ptr_wrapper>
-																			</value0>
-																		</events>
-																	</data>
-																</ptr_wrapper>
-															</commandKeyReleased>
 															<holdingKeyEnabled>false</holdingKeyEnabled>
 															<holdingKeyType>OnPress</holdingKeyType>
 															<holdingKeyOnPressInterval>100</holdingKeyOnPressInterval>
-															<programPath></programPath>
 															<sniperSwitchMode>WhilePressed</sniperSwitchMode>
 														</data>
 													</ptr_wrapper>
@@ -580,9 +158,9 @@
 											</value2>
 											<value3>
 												<first>
-													<polymorphic_id>4</polymorphic_id>
+													<polymorphic_id>2</polymorphic_id>
 													<ptr_wrapper>
-														<id>2147483678</id>
+														<id>2147483652</id>
 														<data>
 															<base>
 																<name>Negozio</name>
@@ -599,6 +177,7 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnBoth</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
@@ -606,102 +185,9 @@
 															</base>
 															<keyName>N</keyName>
 															<keyStroke size="dynamic"/>
-															<command>
-																<polymorphic_id>2</polymorphic_id>
-																<ptr_wrapper>
-																	<id>2147483679</id>
-																	<data>
-																		<base>
-																			<name></name>
-																			<id>{d4465607-f0aa-4f22-99ed-230d6e0644e9}</id>
-																			<repeatOptions>
-																				<repeatCount>1</repeatCount>
-																				<repeatMode>NoRepeat</repeatMode>
-																				<delay>0</delay>
-																				<delayMode>Constant</delayMode>
-																				<randomDelayFrom>0</randomDelayFrom>
-																				<randomDelayTo>0</randomDelayTo>
-																			</repeatOptions>
-																			<executionHints>
-																				<terminateOnSecondExec>false</terminateOnSecondExec>
-																				<restartOnSecondExec>true</restartOnSecondExec>
-																				<execHint>OnPress</execHint>
-																			</executionHints>
-																			<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																			<actionSoundPath></actionSoundPath>
-																			<attachedActions size="dynamic"/>
-																		</base>
-																		<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
-																		<terminationMethod>Interrupt</terminationMethod>
-																		<highPriority>true</highPriority>
-																		<events size="dynamic">
-																			<value0>
-																				<polymorphic_id>3</polymorphic_id>
-																				<ptr_wrapper>
-																					<id>2147483680</id>
-																					<data>
-																						<base/>
-																						<keys size="dynamic">
-																							<value0>N</value0>
-																						</keys>
-																						<sub>KeyPress</sub>
-																					</data>
-																				</ptr_wrapper>
-																			</value0>
-																		</events>
-																	</data>
-																</ptr_wrapper>
-															</command>
-															<commandKeyReleased>
-																<polymorphic_id>2</polymorphic_id>
-																<ptr_wrapper>
-																	<id>2147483681</id>
-																	<data>
-																		<base>
-																			<name></name>
-																			<id>{b98ba121-ea18-46be-becf-18e1d6435785}</id>
-																			<repeatOptions>
-																				<repeatCount>1</repeatCount>
-																				<repeatMode>NoRepeat</repeatMode>
-																				<delay>0</delay>
-																				<delayMode>Constant</delayMode>
-																				<randomDelayFrom>0</randomDelayFrom>
-																				<randomDelayTo>0</randomDelayTo>
-																			</repeatOptions>
-																			<executionHints>
-																				<terminateOnSecondExec>false</terminateOnSecondExec>
-																				<restartOnSecondExec>true</restartOnSecondExec>
-																				<execHint>OnPress</execHint>
-																			</executionHints>
-																			<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																			<actionSoundPath></actionSoundPath>
-																			<attachedActions size="dynamic"/>
-																		</base>
-																		<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
-																		<terminationMethod>Interrupt</terminationMethod>
-																		<highPriority>true</highPriority>
-																		<events size="dynamic">
-																			<value0>
-																				<polymorphic_id>3</polymorphic_id>
-																				<ptr_wrapper>
-																					<id>2147483682</id>
-																					<data>
-																						<base/>
-																						<keys size="dynamic">
-																							<value0>N</value0>
-																						</keys>
-																						<sub>KeyRelease</sub>
-																					</data>
-																				</ptr_wrapper>
-																			</value0>
-																		</events>
-																	</data>
-																</ptr_wrapper>
-															</commandKeyReleased>
 															<holdingKeyEnabled>false</holdingKeyEnabled>
 															<holdingKeyType>OnPress</holdingKeyType>
 															<holdingKeyOnPressInterval>100</holdingKeyOnPressInterval>
-															<programPath></programPath>
 															<sniperSwitchMode>WhilePressed</sniperSwitchMode>
 														</data>
 													</ptr_wrapper>
@@ -713,9 +199,9 @@
 											</value3>
 											<value4>
 												<first>
-													<polymorphic_id>4</polymorphic_id>
+													<polymorphic_id>2</polymorphic_id>
 													<ptr_wrapper>
-														<id>2147483683</id>
+														<id>2147483653</id>
 														<data>
 															<base>
 																<name>Annulla Azione</name>
@@ -732,6 +218,7 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnBoth</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
@@ -739,102 +226,9 @@
 															</base>
 															<keyName>Keypad2</keyName>
 															<keyStroke size="dynamic"/>
-															<command>
-																<polymorphic_id>2</polymorphic_id>
-																<ptr_wrapper>
-																	<id>2147483684</id>
-																	<data>
-																		<base>
-																			<name></name>
-																			<id>{b348a787-97ad-4fbe-94b9-b5c8709feb5e}</id>
-																			<repeatOptions>
-																				<repeatCount>1</repeatCount>
-																				<repeatMode>NoRepeat</repeatMode>
-																				<delay>0</delay>
-																				<delayMode>Constant</delayMode>
-																				<randomDelayFrom>0</randomDelayFrom>
-																				<randomDelayTo>0</randomDelayTo>
-																			</repeatOptions>
-																			<executionHints>
-																				<terminateOnSecondExec>false</terminateOnSecondExec>
-																				<restartOnSecondExec>true</restartOnSecondExec>
-																				<execHint>OnPress</execHint>
-																			</executionHints>
-																			<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																			<actionSoundPath></actionSoundPath>
-																			<attachedActions size="dynamic"/>
-																		</base>
-																		<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
-																		<terminationMethod>Interrupt</terminationMethod>
-																		<highPriority>true</highPriority>
-																		<events size="dynamic">
-																			<value0>
-																				<polymorphic_id>3</polymorphic_id>
-																				<ptr_wrapper>
-																					<id>2147483685</id>
-																					<data>
-																						<base/>
-																						<keys size="dynamic">
-																							<value0>Keypad2</value0>
-																						</keys>
-																						<sub>KeyPress</sub>
-																					</data>
-																				</ptr_wrapper>
-																			</value0>
-																		</events>
-																	</data>
-																</ptr_wrapper>
-															</command>
-															<commandKeyReleased>
-																<polymorphic_id>2</polymorphic_id>
-																<ptr_wrapper>
-																	<id>2147483686</id>
-																	<data>
-																		<base>
-																			<name></name>
-																			<id>{f52f3e07-5aa0-452d-bf47-6b67fd8b2911}</id>
-																			<repeatOptions>
-																				<repeatCount>1</repeatCount>
-																				<repeatMode>NoRepeat</repeatMode>
-																				<delay>0</delay>
-																				<delayMode>Constant</delayMode>
-																				<randomDelayFrom>0</randomDelayFrom>
-																				<randomDelayTo>0</randomDelayTo>
-																			</repeatOptions>
-																			<executionHints>
-																				<terminateOnSecondExec>false</terminateOnSecondExec>
-																				<restartOnSecondExec>true</restartOnSecondExec>
-																				<execHint>OnPress</execHint>
-																			</executionHints>
-																			<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																			<actionSoundPath></actionSoundPath>
-																			<attachedActions size="dynamic"/>
-																		</base>
-																		<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
-																		<terminationMethod>Interrupt</terminationMethod>
-																		<highPriority>true</highPriority>
-																		<events size="dynamic">
-																			<value0>
-																				<polymorphic_id>3</polymorphic_id>
-																				<ptr_wrapper>
-																					<id>2147483687</id>
-																					<data>
-																						<base/>
-																						<keys size="dynamic">
-																							<value0>Keypad2</value0>
-																						</keys>
-																						<sub>KeyRelease</sub>
-																					</data>
-																				</ptr_wrapper>
-																			</value0>
-																		</events>
-																	</data>
-																</ptr_wrapper>
-															</commandKeyReleased>
 															<holdingKeyEnabled>false</holdingKeyEnabled>
 															<holdingKeyType>OnPress</holdingKeyType>
 															<holdingKeyOnPressInterval>100</holdingKeyOnPressInterval>
-															<programPath></programPath>
 															<sniperSwitchMode>WhilePressed</sniperSwitchMode>
 														</data>
 													</ptr_wrapper>
@@ -846,10 +240,12 @@
 											</value4>
 											<value5>
 												<first>
-													<polymorphic_id>2</polymorphic_id>
+													<polymorphic_id>2147483651</polymorphic_id>
+													<polymorphic_name>MacroAction</polymorphic_name>
 													<ptr_wrapper>
-														<id>2147483688</id>
+														<id>2147483654</id>
 														<data>
+															<cereal_class_version>201</cereal_class_version>
 															<base>
 																<name>Centra Eroe</name>
 																<id>{c335ea97-5eda-4724-9e96-ba9ebe492072}</id>
@@ -865,32 +261,34 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>true</restartOnSecondExec>
 																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
 																<attachedActions size="dynamic"/>
 															</base>
-															<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
 															<terminationMethod>Interrupt</terminationMethod>
 															<highPriority>false</highPriority>
 															<events size="dynamic">
 																<value0>
-																	<polymorphic_id>2147483653</polymorphic_id>
+																	<polymorphic_id>2147483652</polymorphic_id>
 																	<polymorphic_name>MouseButtonMacroActionEvent</polymorphic_name>
 																	<ptr_wrapper>
-																		<id>2147483689</id>
+																		<id>2147483655</id>
 																		<data>
 																			<cereal_class_version>200</cereal_class_version>
-																			<base/>
+																			<base>
+																				<cereal_class_version>200</cereal_class_version>
+																			</base>
 																			<button>4</button>
 																			<sub>ButtonPress</sub>
 																		</data>
 																	</ptr_wrapper>
 																</value0>
 																<value1>
-																	<polymorphic_id>5</polymorphic_id>
+																	<polymorphic_id>4</polymorphic_id>
 																	<ptr_wrapper>
-																		<id>2147483690</id>
+																		<id>2147483656</id>
 																		<data>
 																			<base/>
 																			<button>4</button>
@@ -899,9 +297,9 @@
 																	</ptr_wrapper>
 																</value1>
 																<value2>
-																	<polymorphic_id>5</polymorphic_id>
+																	<polymorphic_id>4</polymorphic_id>
 																	<ptr_wrapper>
-																		<id>2147483691</id>
+																		<id>2147483657</id>
 																		<data>
 																			<base/>
 																			<button>4</button>
@@ -910,9 +308,9 @@
 																	</ptr_wrapper>
 																</value2>
 																<value3>
-																	<polymorphic_id>5</polymorphic_id>
+																	<polymorphic_id>4</polymorphic_id>
 																	<ptr_wrapper>
-																		<id>2147483692</id>
+																		<id>2147483658</id>
 																		<data>
 																			<base/>
 																			<button>4</button>
@@ -931,9 +329,9 @@
 											</value5>
 											<value6>
 												<first>
-													<polymorphic_id>4</polymorphic_id>
+													<polymorphic_id>2</polymorphic_id>
 													<ptr_wrapper>
-														<id>2147483693</id>
+														<id>2147483659</id>
 														<data>
 															<base>
 																<name>Punteggi</name>
@@ -950,6 +348,7 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
@@ -957,102 +356,9 @@
 															</base>
 															<keyName>P</keyName>
 															<keyStroke size="dynamic"/>
-															<command>
-																<polymorphic_id>2</polymorphic_id>
-																<ptr_wrapper>
-																	<id>2147483694</id>
-																	<data>
-																		<base>
-																			<name></name>
-																			<id>{13bad003-93a2-48ea-b982-ca9dbc9afc9b}</id>
-																			<repeatOptions>
-																				<repeatCount>1</repeatCount>
-																				<repeatMode>NoRepeat</repeatMode>
-																				<delay>0</delay>
-																				<delayMode>Constant</delayMode>
-																				<randomDelayFrom>0</randomDelayFrom>
-																				<randomDelayTo>0</randomDelayTo>
-																			</repeatOptions>
-																			<executionHints>
-																				<terminateOnSecondExec>false</terminateOnSecondExec>
-																				<restartOnSecondExec>true</restartOnSecondExec>
-																				<execHint>OnPress</execHint>
-																			</executionHints>
-																			<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																			<actionSoundPath></actionSoundPath>
-																			<attachedActions size="dynamic"/>
-																		</base>
-																		<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
-																		<terminationMethod>Interrupt</terminationMethod>
-																		<highPriority>true</highPriority>
-																		<events size="dynamic">
-																			<value0>
-																				<polymorphic_id>3</polymorphic_id>
-																				<ptr_wrapper>
-																					<id>2147483695</id>
-																					<data>
-																						<base/>
-																						<keys size="dynamic">
-																							<value0>P</value0>
-																						</keys>
-																						<sub>KeyPress</sub>
-																					</data>
-																				</ptr_wrapper>
-																			</value0>
-																		</events>
-																	</data>
-																</ptr_wrapper>
-															</command>
-															<commandKeyReleased>
-																<polymorphic_id>2</polymorphic_id>
-																<ptr_wrapper>
-																	<id>2147483696</id>
-																	<data>
-																		<base>
-																			<name></name>
-																			<id>{3e17cdce-8edf-497e-a59b-04558fe9b01f}</id>
-																			<repeatOptions>
-																				<repeatCount>1</repeatCount>
-																				<repeatMode>NoRepeat</repeatMode>
-																				<delay>0</delay>
-																				<delayMode>Constant</delayMode>
-																				<randomDelayFrom>0</randomDelayFrom>
-																				<randomDelayTo>0</randomDelayTo>
-																			</repeatOptions>
-																			<executionHints>
-																				<terminateOnSecondExec>false</terminateOnSecondExec>
-																				<restartOnSecondExec>true</restartOnSecondExec>
-																				<execHint>OnPress</execHint>
-																			</executionHints>
-																			<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																			<actionSoundPath></actionSoundPath>
-																			<attachedActions size="dynamic"/>
-																		</base>
-																		<chainedCommandId>{00000000-0000-0000-0000-000000000000}</chainedCommandId>
-																		<terminationMethod>Interrupt</terminationMethod>
-																		<highPriority>true</highPriority>
-																		<events size="dynamic">
-																			<value0>
-																				<polymorphic_id>3</polymorphic_id>
-																				<ptr_wrapper>
-																					<id>2147483697</id>
-																					<data>
-																						<base/>
-																						<keys size="dynamic">
-																							<value0>P</value0>
-																						</keys>
-																						<sub>KeyRelease</sub>
-																					</data>
-																				</ptr_wrapper>
-																			</value0>
-																		</events>
-																	</data>
-																</ptr_wrapper>
-															</commandKeyReleased>
 															<holdingKeyEnabled>true</holdingKeyEnabled>
 															<holdingKeyType>OnPress</holdingKeyType>
 															<holdingKeyOnPressInterval>3000</holdingKeyOnPressInterval>
-															<programPath></programPath>
 															<sniperSwitchMode>WhilePressed</sniperSwitchMode>
 														</data>
 													</ptr_wrapper>
@@ -1066,10 +372,10 @@
 										<default_actions size="dynamic">
 											<value0>
 												<first>
-													<polymorphic_id>2147483654</polymorphic_id>
+													<polymorphic_id>2147483653</polymorphic_id>
 													<polymorphic_name>DpiAction</polymorphic_name>
 													<ptr_wrapper>
-														<id>2147483698</id>
+														<id>2147483660</id>
 														<data>
 															<cereal_class_version>200</cereal_class_version>
 															<base>
@@ -1087,13 +393,14 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
 																<attachedActions size="dynamic"/>
 															</base>
 															<behavior>
-																<polymorphic_id>2147483655</polymorphic_id>
+																<polymorphic_id>2147483654</polymorphic_id>
 																<polymorphic_name>DirectionDpiBehavior</polymorphic_name>
 																<ptr_wrapper>
 																	<valid>1</valid>
@@ -1119,9 +426,9 @@
 											</value0>
 											<value1>
 												<first>
-													<polymorphic_id>6</polymorphic_id>
+													<polymorphic_id>5</polymorphic_id>
 													<ptr_wrapper>
-														<id>2147483699</id>
+														<id>2147483661</id>
 														<data>
 															<base>
 																<name>DPI Prev</name>
@@ -1138,13 +445,14 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
 																<attachedActions size="dynamic"/>
 															</base>
 															<behavior>
-																<polymorphic_id>7</polymorphic_id>
+																<polymorphic_id>6</polymorphic_id>
 																<ptr_wrapper>
 																	<valid>1</valid>
 																	<data>
@@ -1167,9 +475,9 @@
 											</value1>
 											<value2>
 												<first>
-													<polymorphic_id>6</polymorphic_id>
+													<polymorphic_id>5</polymorphic_id>
 													<ptr_wrapper>
-														<id>2147483700</id>
+														<id>2147483662</id>
 														<data>
 															<base>
 																<name>DPI Sniper</name>
@@ -1186,13 +494,14 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>WhilePressed</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
 																<attachedActions size="dynamic"/>
 															</base>
 															<behavior>
-																<polymorphic_id>2147483656</polymorphic_id>
+																<polymorphic_id>2147483655</polymorphic_id>
 																<polymorphic_name>SniperDpiBehavior</polymorphic_name>
 																<ptr_wrapper>
 																	<valid>1</valid>
@@ -1214,9 +523,9 @@
 											</value2>
 											<value3>
 												<first>
-													<polymorphic_id>6</polymorphic_id>
+													<polymorphic_id>5</polymorphic_id>
 													<ptr_wrapper>
-														<id>2147483701</id>
+														<id>2147483663</id>
 														<data>
 															<base>
 																<name>DPI Toggle</name>
@@ -1233,13 +542,14 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>WhilePressed</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
 																<attachedActions size="dynamic"/>
 															</base>
 															<behavior>
-																<polymorphic_id>7</polymorphic_id>
+																<polymorphic_id>6</polymorphic_id>
 																<ptr_wrapper>
 																	<valid>1</valid>
 																	<data>
@@ -1262,15 +572,15 @@
 											</value3>
 											<value4>
 												<first>
-													<polymorphic_id>2147483657</polymorphic_id>
+													<polymorphic_id>2147483656</polymorphic_id>
 													<polymorphic_name>ProfileSwitchingAction</polymorphic_name>
 													<ptr_wrapper>
-														<id>2147483702</id>
+														<id>2147483664</id>
 														<data>
-															<cereal_class_version>200</cereal_class_version>
+															<cereal_class_version>201</cereal_class_version>
 															<base>
 																<name></name>
-																<id>{bcfdd004-9116-4800-ae34-956565bbb49c}</id>
+																<id>{405317e3-c536-4430-8e7d-942896a41948}</id>
 																<repeatOptions>
 																	<repeatCount>1</repeatCount>
 																	<repeatMode>NoRepeat</repeatMode>
@@ -1283,6 +593,7 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
@@ -1291,6 +602,7 @@
 															<switchType>SwitchToHardware</switchType>
 															<loop>true</loop>
 															<profiles size="dynamic"/>
+															<folderOnlyVisible>false</folderOnlyVisible>
 														</data>
 													</ptr_wrapper>
 												</first>
@@ -1299,12 +611,94 @@
 													<second>Click</second>
 												</second>
 											</value4>
+											<value5>
+												<first>
+													<polymorphic_id>2</polymorphic_id>
+													<ptr_wrapper>
+														<id>2147483665</id>
+														<data>
+															<base>
+																<name>Remap Mouse Backward</name>
+																<id>{13467871-810f-4061-b55d-dbbbb0975f07}</id>
+																<repeatOptions>
+																	<repeatCount>1</repeatCount>
+																	<repeatMode>NoRepeat</repeatMode>
+																	<delay>0</delay>
+																	<delayMode>Constant</delayMode>
+																	<randomDelayFrom>0</randomDelayFrom>
+																	<randomDelayTo>0</randomDelayTo>
+																</repeatOptions>
+																<executionHints>
+																	<terminateOnSecondExec>false</terminateOnSecondExec>
+																	<restartOnSecondExec>false</restartOnSecondExec>
+																	<execHint>OnBoth</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
+																</executionHints>
+																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
+																<actionSoundPath></actionSoundPath>
+																<attachedActions size="dynamic"/>
+															</base>
+															<keyName>Mouse4</keyName>
+															<keyStroke size="dynamic"/>
+															<holdingKeyEnabled>false</holdingKeyEnabled>
+															<holdingKeyType>OnPress</holdingKeyType>
+															<holdingKeyOnPressInterval>100</holdingKeyOnPressInterval>
+															<sniperSwitchMode>WhilePressed</sniperSwitchMode>
+														</data>
+													</ptr_wrapper>
+												</first>
+												<second>
+													<first>Mouse4</first>
+													<second>Click</second>
+												</second>
+											</value5>
+											<value6>
+												<first>
+													<polymorphic_id>2</polymorphic_id>
+													<ptr_wrapper>
+														<id>2147483666</id>
+														<data>
+															<base>
+																<name>Remap Mouse Forward</name>
+																<id>{4309546b-da08-479b-80de-c4d241d8e626}</id>
+																<repeatOptions>
+																	<repeatCount>1</repeatCount>
+																	<repeatMode>NoRepeat</repeatMode>
+																	<delay>0</delay>
+																	<delayMode>Constant</delayMode>
+																	<randomDelayFrom>0</randomDelayFrom>
+																	<randomDelayTo>0</randomDelayTo>
+																</repeatOptions>
+																<executionHints>
+																	<terminateOnSecondExec>false</terminateOnSecondExec>
+																	<restartOnSecondExec>false</restartOnSecondExec>
+																	<execHint>OnBoth</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
+																</executionHints>
+																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
+																<actionSoundPath></actionSoundPath>
+																<attachedActions size="dynamic"/>
+															</base>
+															<keyName>Mouse5</keyName>
+															<keyStroke size="dynamic"/>
+															<holdingKeyEnabled>false</holdingKeyEnabled>
+															<holdingKeyType>OnPress</holdingKeyType>
+															<holdingKeyOnPressInterval>100</holdingKeyOnPressInterval>
+															<sniperSwitchMode>WhilePressed</sniperSwitchMode>
+														</data>
+													</ptr_wrapper>
+												</first>
+												<second>
+													<first>Mouse5</first>
+													<second>Click</second>
+												</second>
+											</value6>
 										</default_actions>
 									</data>
 								</ptr_wrapper>
 							</value0>
 							<value1>
-								<polymorphic_id>2147483658</polymorphic_id>
+								<polymorphic_id>2147483657</polymorphic_id>
 								<polymorphic_name>AngleSnappingProperty</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -1317,6 +711,18 @@
 								</ptr_wrapper>
 							</value1>
 							<value2>
+								<polymorphic_id>2147483658</polymorphic_id>
+								<polymorphic_name>XDLDeviceProperty</polymorphic_name>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<cereal_class_version>200</cereal_class_version>
+										<base/>
+										<enabled>true</enabled>
+									</data>
+								</ptr_wrapper>
+							</value2>
+							<value3>
 								<polymorphic_id>2147483659</polymorphic_id>
 								<polymorphic_name>SystemPointerProperty</polymorphic_name>
 								<ptr_wrapper>
@@ -1328,22 +734,10 @@
 										<pointerMotionSpeed>10</pointerMotionSpeed>
 									</data>
 								</ptr_wrapper>
-							</value2>
-							<value3>
-								<polymorphic_id>2147483660</polymorphic_id>
-								<polymorphic_name>XDLDeviceProperty</polymorphic_name>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<cereal_class_version>200</cereal_class_version>
-										<base/>
-										<enabled>true</enabled>
-									</data>
-								</ptr_wrapper>
 							</value3>
 							<value4>
-								<polymorphic_id>2147483661</polymorphic_id>
-								<polymorphic_name>BasicLightingsProperty::Proxy</polymorphic_name>
+								<polymorphic_id>2147483660</polymorphic_id>
+								<polymorphic_name>HardwareMetaProperty::Proxy</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
 									<data>
@@ -1352,6 +746,60 @@
 										<properties size="dynamic">
 											<value0>
 												<key>true</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<cereal_class_version>201</cereal_class_version>
+															<base/>
+															<basicModeCookieValue>0</basicModeCookieValue>
+															<advancedModeCookieValue>0</advancedModeCookieValue>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value0>
+											<value1>
+												<key>false</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base/>
+															<basicModeCookieValue>0</basicModeCookieValue>
+															<advancedModeCookieValue>0</advancedModeCookieValue>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value1>
+										</properties>
+									</data>
+								</ptr_wrapper>
+							</value4>
+							<value5>
+								<polymorphic_id>2147483661</polymorphic_id>
+								<polymorphic_name>DPIProperty</polymorphic_name>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<cereal_class_version>200</cereal_class_version>
+										<base/>
+										<id>{a9bb5e80-5bbb-4b9a-bdae-e3e287b8629c}</id>
+									</data>
+								</ptr_wrapper>
+							</value5>
+							<value6>
+								<polymorphic_id>2147483662</polymorphic_id>
+								<polymorphic_name>BasicLightingsProperty::Proxy</polymorphic_name>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<cereal_class_version>201</cereal_class_version>
+										<base/>
+										<properties size="dynamic">
+											<value0>
+												<key>StandardRgb</key>
 												<value>
 													<polymorphic_id>1073741824</polymorphic_id>
 													<ptr_wrapper>
@@ -1368,7 +816,7 @@
 												</value>
 											</value0>
 											<value1>
-												<key>false</key>
+												<key>StandardSingleColor</key>
 												<value>
 													<polymorphic_id>1073741824</polymorphic_id>
 													<ptr_wrapper>
@@ -1382,38 +830,27 @@
 													</ptr_wrapper>
 												</value>
 											</value1>
+											<value2>
+												<key>ZoneRgb</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base>
+																<base/>
+																<layers size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value2>
 										</properties>
-									</data>
-								</ptr_wrapper>
-							</value4>
-							<value5>
-								<polymorphic_id>2147483662</polymorphic_id>
-								<polymorphic_name>DPIProperty</polymorphic_name>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<cereal_class_version>200</cereal_class_version>
-										<base/>
-										<id>{6e1d0475-34c9-4a67-b3f4-24d762e28fca}</id>
-									</data>
-								</ptr_wrapper>
-							</value5>
-							<value6>
-								<polymorphic_id>2147483663</polymorphic_id>
-								<polymorphic_name>KatarDPIProperty</polymorphic_name>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<cereal_class_version>200</cereal_class_version>
-										<base>
-											<base/>
-											<id>{fe716b27-2feb-4d39-b6cd-451b4cb59c97}</id>
-										</base>
 									</data>
 								</ptr_wrapper>
 							</value6>
 							<value7>
-								<polymorphic_id>2147483664</polymorphic_id>
+								<polymorphic_id>2147483663</polymorphic_id>
 								<polymorphic_name>LiftHeightProperty</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -1425,446 +862,21 @@
 								</ptr_wrapper>
 							</value7>
 							<value8>
-								<polymorphic_id>2147483665</polymorphic_id>
-								<polymorphic_name>HardwareMetaProperty::Proxy</polymorphic_name>
+								<polymorphic_id>2147483664</polymorphic_id>
+								<polymorphic_name>KatarDPIProperty</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
 									<data>
 										<cereal_class_version>200</cereal_class_version>
-										<base/>
-										<properties size="dynamic">
-											<value0>
-												<key>true</key>
-												<value>
-													<polymorphic_id>1073741824</polymorphic_id>
-													<ptr_wrapper>
-														<valid>1</valid>
-														<data>
-															<cereal_class_version>200</cereal_class_version>
-															<base/>
-															<cookie>0</cookie>
-														</data>
-													</ptr_wrapper>
-												</value>
-											</value0>
-											<value1>
-												<key>false</key>
-												<value>
-													<polymorphic_id>1073741824</polymorphic_id>
-													<ptr_wrapper>
-														<valid>1</valid>
-														<data>
-															<base/>
-															<cookie>0</cookie>
-														</data>
-													</ptr_wrapper>
-												</value>
-											</value1>
-										</properties>
+										<base>
+											<base/>
+											<id>{fe716b27-2feb-4d39-b6cd-451b4cb59c97}</id>
+										</base>
 									</data>
 								</ptr_wrapper>
 							</value8>
-						</properties>
-					</value>
-				</value0>
-				<value1>
-					<key>Keyboard</key>
-					<value>
-						<properties size="dynamic">
-							<value0>
-								<polymorphic_id>2147483666</polymorphic_id>
-								<polymorphic_name>SideLightingProperty</polymorphic_name>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<cereal_class_version>200</cereal_class_version>
-										<base/>
-										<enabled>true</enabled>
-									</data>
-								</ptr_wrapper>
-							</value0>
-							<value1>
-								<polymorphic_id>2147483667</polymorphic_id>
-								<polymorphic_name>WinlockProperty</polymorphic_name>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<cereal_class_version>200</cereal_class_version>
-										<base/>
-										<disableAltTab>false</disableAltTab>
-										<disableAltF4>false</disableAltF4>
-										<disableWinKey>true</disableWinKey>
-										<disableShiftTab>false</disableShiftTab>
-									</data>
-								</ptr_wrapper>
-							</value1>
-							<value2>
-								<polymorphic_id>2147483668</polymorphic_id>
-								<polymorphic_name>MacroRecordingProperty</polymorphic_name>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<cereal_class_version>200</cereal_class_version>
-										<base/>
-										<enabledIndicatorColor>#ffff0000</enabledIndicatorColor>
-										<disabledIndicatorColor>#ff000000</disabledIndicatorColor>
-									</data>
-								</ptr_wrapper>
-							</value2>
-							<value3>
-								<polymorphic_id>1</polymorphic_id>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<base/>
-										<actions size="dynamic"/>
-										<default_actions size="dynamic">
-											<value0>
-												<first>
-													<polymorphic_id>2147483669</polymorphic_id>
-													<polymorphic_name>WinLockAction</polymorphic_name>
-													<ptr_wrapper>
-														<id>2147483703</id>
-														<data>
-															<cereal_class_version>200</cereal_class_version>
-															<base>
-																<name></name>
-																<id>{ca702c52-32a6-439e-b52a-61e8cc8b4338}</id>
-																<repeatOptions>
-																	<repeatCount>1</repeatCount>
-																	<repeatMode>NoRepeat</repeatMode>
-																	<delay>0</delay>
-																	<delayMode>Constant</delayMode>
-																	<randomDelayFrom>0</randomDelayFrom>
-																	<randomDelayTo>0</randomDelayTo>
-																</repeatOptions>
-																<executionHints>
-																	<terminateOnSecondExec>false</terminateOnSecondExec>
-																	<restartOnSecondExec>false</restartOnSecondExec>
-																	<execHint>OnPress</execHint>
-																</executionHints>
-																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																<actionSoundPath></actionSoundPath>
-																<attachedActions size="dynamic"/>
-															</base>
-														</data>
-													</ptr_wrapper>
-												</first>
-												<second>
-													<first>WinLock</first>
-													<second>Click</second>
-												</second>
-											</value0>
-											<value1>
-												<first>
-													<polymorphic_id>9</polymorphic_id>
-													<ptr_wrapper>
-														<id>2147483704</id>
-														<data>
-															<base>
-																<name></name>
-																<id>{405317e3-c536-4430-8e7d-942896a41948}</id>
-																<repeatOptions>
-																	<repeatCount>1</repeatCount>
-																	<repeatMode>NoRepeat</repeatMode>
-																	<delay>0</delay>
-																	<delayMode>Constant</delayMode>
-																	<randomDelayFrom>0</randomDelayFrom>
-																	<randomDelayTo>0</randomDelayTo>
-																</repeatOptions>
-																<executionHints>
-																	<terminateOnSecondExec>false</terminateOnSecondExec>
-																	<restartOnSecondExec>false</restartOnSecondExec>
-																	<execHint>OnPress</execHint>
-																</executionHints>
-																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																<actionSoundPath></actionSoundPath>
-																<attachedActions size="dynamic"/>
-															</base>
-															<switchType>SwitchToMKey</switchType>
-															<loop>true</loop>
-															<profiles size="dynamic"/>
-														</data>
-													</ptr_wrapper>
-												</first>
-												<second>
-													<first>M1</first>
-													<second>Click</second>
-												</second>
-											</value1>
-											<value2>
-												<first>
-													<polymorphic_id>9</polymorphic_id>
-													<ptr_wrapper>
-														<id>2147483705</id>
-														<data>
-															<base>
-																<name></name>
-																<id>{ae598b8d-591b-4fe5-a01c-0f958011f202}</id>
-																<repeatOptions>
-																	<repeatCount>1</repeatCount>
-																	<repeatMode>NoRepeat</repeatMode>
-																	<delay>0</delay>
-																	<delayMode>Constant</delayMode>
-																	<randomDelayFrom>0</randomDelayFrom>
-																	<randomDelayTo>0</randomDelayTo>
-																</repeatOptions>
-																<executionHints>
-																	<terminateOnSecondExec>false</terminateOnSecondExec>
-																	<restartOnSecondExec>false</restartOnSecondExec>
-																	<execHint>OnPress</execHint>
-																</executionHints>
-																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																<actionSoundPath></actionSoundPath>
-																<attachedActions size="dynamic"/>
-															</base>
-															<switchType>SwitchToMKey</switchType>
-															<loop>true</loop>
-															<profiles size="dynamic"/>
-														</data>
-													</ptr_wrapper>
-												</first>
-												<second>
-													<first>M2</first>
-													<second>Click</second>
-												</second>
-											</value2>
-											<value3>
-												<first>
-													<polymorphic_id>9</polymorphic_id>
-													<ptr_wrapper>
-														<id>2147483706</id>
-														<data>
-															<base>
-																<name></name>
-																<id>{284c5e6d-647d-4d8e-b1ab-1727f3dadcb5}</id>
-																<repeatOptions>
-																	<repeatCount>1</repeatCount>
-																	<repeatMode>NoRepeat</repeatMode>
-																	<delay>0</delay>
-																	<delayMode>Constant</delayMode>
-																	<randomDelayFrom>0</randomDelayFrom>
-																	<randomDelayTo>0</randomDelayTo>
-																</repeatOptions>
-																<executionHints>
-																	<terminateOnSecondExec>false</terminateOnSecondExec>
-																	<restartOnSecondExec>false</restartOnSecondExec>
-																	<execHint>OnPress</execHint>
-																</executionHints>
-																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																<actionSoundPath></actionSoundPath>
-																<attachedActions size="dynamic"/>
-															</base>
-															<switchType>SwitchToMKey</switchType>
-															<loop>true</loop>
-															<profiles size="dynamic"/>
-														</data>
-													</ptr_wrapper>
-												</first>
-												<second>
-													<first>M3</first>
-													<second>Click</second>
-												</second>
-											</value3>
-											<value4>
-												<first>
-													<polymorphic_id>2147483670</polymorphic_id>
-													<polymorphic_name>BrightnessAction</polymorphic_name>
-													<ptr_wrapper>
-														<id>2147483707</id>
-														<data>
-															<cereal_class_version>200</cereal_class_version>
-															<base>
-																<name></name>
-																<id>{9a67b24b-0f82-4e6e-af98-59dd2a7593dc}</id>
-																<repeatOptions>
-																	<repeatCount>1</repeatCount>
-																	<repeatMode>NoRepeat</repeatMode>
-																	<delay>0</delay>
-																	<delayMode>Constant</delayMode>
-																	<randomDelayFrom>0</randomDelayFrom>
-																	<randomDelayTo>0</randomDelayTo>
-																</repeatOptions>
-																<executionHints>
-																	<terminateOnSecondExec>false</terminateOnSecondExec>
-																	<restartOnSecondExec>false</restartOnSecondExec>
-																	<execHint>OnPress</execHint>
-																</executionHints>
-																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																<actionSoundPath></actionSoundPath>
-																<attachedActions size="dynamic"/>
-															</base>
-															<direction>NextState</direction>
-														</data>
-													</ptr_wrapper>
-												</first>
-												<second>
-													<first>Brightness</first>
-													<second>Click</second>
-												</second>
-											</value4>
-											<value5>
-												<first>
-													<polymorphic_id>2147483671</polymorphic_id>
-													<polymorphic_name>MacroRecordingAction</polymorphic_name>
-													<ptr_wrapper>
-														<id>2147483708</id>
-														<data>
-															<cereal_class_version>200</cereal_class_version>
-															<base>
-																<name></name>
-																<id>{011cd322-1857-455f-bb73-2918a01428d0}</id>
-																<repeatOptions>
-																	<repeatCount>1</repeatCount>
-																	<repeatMode>NoRepeat</repeatMode>
-																	<delay>0</delay>
-																	<delayMode>Constant</delayMode>
-																	<randomDelayFrom>0</randomDelayFrom>
-																	<randomDelayTo>0</randomDelayTo>
-																</repeatOptions>
-																<executionHints>
-																	<terminateOnSecondExec>false</terminateOnSecondExec>
-																	<restartOnSecondExec>false</restartOnSecondExec>
-																	<execHint>OnPress</execHint>
-																</executionHints>
-																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																<actionSoundPath></actionSoundPath>
-																<attachedActions size="dynamic"/>
-															</base>
-														</data>
-													</ptr_wrapper>
-												</first>
-												<second>
-													<first>MR</first>
-													<second>Click</second>
-												</second>
-											</value5>
-											<value6>
-												<first>
-													<polymorphic_id>9</polymorphic_id>
-													<ptr_wrapper>
-														<id>2147483709</id>
-														<data>
-															<base>
-																<name></name>
-																<id>{8f8b5412-b82f-4fe1-ac15-e8c6548e5021}</id>
-																<repeatOptions>
-																	<repeatCount>1</repeatCount>
-																	<repeatMode>NoRepeat</repeatMode>
-																	<delay>0</delay>
-																	<delayMode>Constant</delayMode>
-																	<randomDelayFrom>0</randomDelayFrom>
-																	<randomDelayTo>0</randomDelayTo>
-																</repeatOptions>
-																<executionHints>
-																	<terminateOnSecondExec>false</terminateOnSecondExec>
-																	<restartOnSecondExec>false</restartOnSecondExec>
-																	<execHint>OnPress</execHint>
-																</executionHints>
-																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
-																<actionSoundPath></actionSoundPath>
-																<attachedActions size="dynamic"/>
-															</base>
-															<switchType>SwitchToHardware</switchType>
-															<loop>true</loop>
-															<profiles size="dynamic"/>
-														</data>
-													</ptr_wrapper>
-												</first>
-												<second>
-													<first>Key_Profile</first>
-													<second>Click</second>
-												</second>
-											</value6>
-										</default_actions>
-									</data>
-								</ptr_wrapper>
-							</value3>
-							<value4>
-								<polymorphic_id>2147483672</polymorphic_id>
-								<polymorphic_name>WinlockIndicatorProperty::Proxy</polymorphic_name>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<cereal_class_version>200</cereal_class_version>
-										<base/>
-										<properties size="dynamic">
-											<value0>
-												<key>true</key>
-												<value>
-													<polymorphic_id>1073741824</polymorphic_id>
-													<ptr_wrapper>
-														<valid>1</valid>
-														<data>
-															<cereal_class_version>200</cereal_class_version>
-															<base/>
-															<enabledIndicatorColor>#ffff0000</enabledIndicatorColor>
-															<disabledIndicatorColor>#ff000000</disabledIndicatorColor>
-														</data>
-													</ptr_wrapper>
-												</value>
-											</value0>
-											<value1>
-												<key>false</key>
-												<value>
-													<polymorphic_id>1073741824</polymorphic_id>
-													<ptr_wrapper>
-														<valid>1</valid>
-														<data>
-															<base/>
-															<enabledIndicatorColor>#ff00ffff</enabledIndicatorColor>
-															<disabledIndicatorColor>#ffff0000</disabledIndicatorColor>
-														</data>
-													</ptr_wrapper>
-												</value>
-											</value1>
-										</properties>
-									</data>
-								</ptr_wrapper>
-							</value4>
-							<value5>
-								<polymorphic_id>13</polymorphic_id>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<base/>
-										<properties size="dynamic">
-											<value0>
-												<key>true</key>
-												<value>
-													<polymorphic_id>1073741824</polymorphic_id>
-													<ptr_wrapper>
-														<valid>1</valid>
-														<data>
-															<base>
-																<base/>
-																<layers size="dynamic"/>
-															</base>
-														</data>
-													</ptr_wrapper>
-												</value>
-											</value0>
-											<value1>
-												<key>false</key>
-												<value>
-													<polymorphic_id>1073741824</polymorphic_id>
-													<ptr_wrapper>
-														<valid>1</valid>
-														<data>
-															<base>
-																<base/>
-																<layers size="dynamic"/>
-															</base>
-														</data>
-													</ptr_wrapper>
-												</value>
-											</value1>
-										</properties>
-									</data>
-								</ptr_wrapper>
-							</value5>
-							<value6>
-								<polymorphic_id>2147483673</polymorphic_id>
+							<value9>
+								<polymorphic_id>2147483665</polymorphic_id>
 								<polymorphic_name>AdvancedLightingsProperty::Proxy</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -1906,9 +918,475 @@
 										</properties>
 									</data>
 								</ptr_wrapper>
+							</value9>
+						</properties>
+					</value>
+				</value0>
+				<value1>
+					<key>Keyboard</key>
+					<value>
+						<properties size="dynamic">
+							<value0>
+								<polymorphic_id>17</polymorphic_id>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<base/>
+										<properties size="dynamic">
+											<value0>
+												<key>true</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base>
+																<base/>
+																<layers size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value0>
+											<value1>
+												<key>false</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base>
+																<base/>
+																<layers size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value1>
+										</properties>
+									</data>
+								</ptr_wrapper>
+							</value0>
+							<value1>
+								<polymorphic_id>2147483666</polymorphic_id>
+								<polymorphic_name>MacroRecordingProperty</polymorphic_name>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<cereal_class_version>200</cereal_class_version>
+										<base/>
+										<enabledIndicatorColor>#ffff0000</enabledIndicatorColor>
+										<disabledIndicatorColor>#ff000000</disabledIndicatorColor>
+									</data>
+								</ptr_wrapper>
+							</value1>
+							<value2>
+								<polymorphic_id>2147483667</polymorphic_id>
+								<polymorphic_name>WinlockProperty</polymorphic_name>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<cereal_class_version>200</cereal_class_version>
+										<base/>
+										<disableAltTab>false</disableAltTab>
+										<disableAltF4>false</disableAltF4>
+										<disableWinKey>true</disableWinKey>
+										<disableShiftTab>false</disableShiftTab>
+									</data>
+								</ptr_wrapper>
+							</value2>
+							<value3>
+								<polymorphic_id>2147483668</polymorphic_id>
+								<polymorphic_name>SideLightingProperty</polymorphic_name>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<cereal_class_version>200</cereal_class_version>
+										<base/>
+										<enabled>true</enabled>
+									</data>
+								</ptr_wrapper>
+							</value3>
+							<value4>
+								<polymorphic_id>1</polymorphic_id>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<base/>
+										<actions size="dynamic"/>
+										<default_actions size="dynamic">
+											<value0>
+												<first>
+													<polymorphic_id>2147483669</polymorphic_id>
+													<polymorphic_name>WinLockAction</polymorphic_name>
+													<ptr_wrapper>
+														<id>2147483667</id>
+														<data>
+															<cereal_class_version>200</cereal_class_version>
+															<base>
+																<name></name>
+																<id>{ca702c52-32a6-439e-b52a-61e8cc8b4338}</id>
+																<repeatOptions>
+																	<repeatCount>1</repeatCount>
+																	<repeatMode>NoRepeat</repeatMode>
+																	<delay>0</delay>
+																	<delayMode>Constant</delayMode>
+																	<randomDelayFrom>0</randomDelayFrom>
+																	<randomDelayTo>0</randomDelayTo>
+																</repeatOptions>
+																<executionHints>
+																	<terminateOnSecondExec>false</terminateOnSecondExec>
+																	<restartOnSecondExec>false</restartOnSecondExec>
+																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
+																</executionHints>
+																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
+																<actionSoundPath></actionSoundPath>
+																<attachedActions size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</first>
+												<second>
+													<first>WinLock</first>
+													<second>Click</second>
+												</second>
+											</value0>
+											<value1>
+												<first>
+													<polymorphic_id>8</polymorphic_id>
+													<ptr_wrapper>
+														<id>2147483668</id>
+														<data>
+															<base>
+																<name></name>
+																<id>{405317e3-c536-4430-8e7d-942896a41948}</id>
+																<repeatOptions>
+																	<repeatCount>1</repeatCount>
+																	<repeatMode>NoRepeat</repeatMode>
+																	<delay>0</delay>
+																	<delayMode>Constant</delayMode>
+																	<randomDelayFrom>0</randomDelayFrom>
+																	<randomDelayTo>0</randomDelayTo>
+																</repeatOptions>
+																<executionHints>
+																	<terminateOnSecondExec>false</terminateOnSecondExec>
+																	<restartOnSecondExec>false</restartOnSecondExec>
+																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
+																</executionHints>
+																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
+																<actionSoundPath></actionSoundPath>
+																<attachedActions size="dynamic"/>
+															</base>
+															<switchType>SwitchToMKey</switchType>
+															<loop>true</loop>
+															<profiles size="dynamic"/>
+															<folderOnlyVisible>false</folderOnlyVisible>
+														</data>
+													</ptr_wrapper>
+												</first>
+												<second>
+													<first>M1</first>
+													<second>Click</second>
+												</second>
+											</value1>
+											<value2>
+												<first>
+													<polymorphic_id>8</polymorphic_id>
+													<ptr_wrapper>
+														<id>2147483669</id>
+														<data>
+															<base>
+																<name></name>
+																<id>{ae598b8d-591b-4fe5-a01c-0f958011f202}</id>
+																<repeatOptions>
+																	<repeatCount>1</repeatCount>
+																	<repeatMode>NoRepeat</repeatMode>
+																	<delay>0</delay>
+																	<delayMode>Constant</delayMode>
+																	<randomDelayFrom>0</randomDelayFrom>
+																	<randomDelayTo>0</randomDelayTo>
+																</repeatOptions>
+																<executionHints>
+																	<terminateOnSecondExec>false</terminateOnSecondExec>
+																	<restartOnSecondExec>false</restartOnSecondExec>
+																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
+																</executionHints>
+																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
+																<actionSoundPath></actionSoundPath>
+																<attachedActions size="dynamic"/>
+															</base>
+															<switchType>SwitchToMKey</switchType>
+															<loop>true</loop>
+															<profiles size="dynamic"/>
+															<folderOnlyVisible>false</folderOnlyVisible>
+														</data>
+													</ptr_wrapper>
+												</first>
+												<second>
+													<first>M2</first>
+													<second>Click</second>
+												</second>
+											</value2>
+											<value3>
+												<first>
+													<polymorphic_id>8</polymorphic_id>
+													<ptr_wrapper>
+														<id>2147483670</id>
+														<data>
+															<base>
+																<name></name>
+																<id>{284c5e6d-647d-4d8e-b1ab-1727f3dadcb5}</id>
+																<repeatOptions>
+																	<repeatCount>1</repeatCount>
+																	<repeatMode>NoRepeat</repeatMode>
+																	<delay>0</delay>
+																	<delayMode>Constant</delayMode>
+																	<randomDelayFrom>0</randomDelayFrom>
+																	<randomDelayTo>0</randomDelayTo>
+																</repeatOptions>
+																<executionHints>
+																	<terminateOnSecondExec>false</terminateOnSecondExec>
+																	<restartOnSecondExec>false</restartOnSecondExec>
+																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
+																</executionHints>
+																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
+																<actionSoundPath></actionSoundPath>
+																<attachedActions size="dynamic"/>
+															</base>
+															<switchType>SwitchToMKey</switchType>
+															<loop>true</loop>
+															<profiles size="dynamic"/>
+															<folderOnlyVisible>false</folderOnlyVisible>
+														</data>
+													</ptr_wrapper>
+												</first>
+												<second>
+													<first>M3</first>
+													<second>Click</second>
+												</second>
+											</value3>
+											<value4>
+												<first>
+													<polymorphic_id>2147483670</polymorphic_id>
+													<polymorphic_name>BrightnessAction</polymorphic_name>
+													<ptr_wrapper>
+														<id>2147483671</id>
+														<data>
+															<cereal_class_version>200</cereal_class_version>
+															<base>
+																<name></name>
+																<id>{9a67b24b-0f82-4e6e-af98-59dd2a7593dc}</id>
+																<repeatOptions>
+																	<repeatCount>1</repeatCount>
+																	<repeatMode>NoRepeat</repeatMode>
+																	<delay>0</delay>
+																	<delayMode>Constant</delayMode>
+																	<randomDelayFrom>0</randomDelayFrom>
+																	<randomDelayTo>0</randomDelayTo>
+																</repeatOptions>
+																<executionHints>
+																	<terminateOnSecondExec>false</terminateOnSecondExec>
+																	<restartOnSecondExec>false</restartOnSecondExec>
+																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
+																</executionHints>
+																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
+																<actionSoundPath></actionSoundPath>
+																<attachedActions size="dynamic"/>
+															</base>
+															<direction>NextState</direction>
+														</data>
+													</ptr_wrapper>
+												</first>
+												<second>
+													<first>Brightness</first>
+													<second>Click</second>
+												</second>
+											</value4>
+											<value5>
+												<first>
+													<polymorphic_id>2147483671</polymorphic_id>
+													<polymorphic_name>MacroRecordingAction</polymorphic_name>
+													<ptr_wrapper>
+														<id>2147483672</id>
+														<data>
+															<cereal_class_version>200</cereal_class_version>
+															<base>
+																<name></name>
+																<id>{011cd322-1857-455f-bb73-2918a01428d0}</id>
+																<repeatOptions>
+																	<repeatCount>1</repeatCount>
+																	<repeatMode>NoRepeat</repeatMode>
+																	<delay>0</delay>
+																	<delayMode>Constant</delayMode>
+																	<randomDelayFrom>0</randomDelayFrom>
+																	<randomDelayTo>0</randomDelayTo>
+																</repeatOptions>
+																<executionHints>
+																	<terminateOnSecondExec>false</terminateOnSecondExec>
+																	<restartOnSecondExec>false</restartOnSecondExec>
+																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
+																</executionHints>
+																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
+																<actionSoundPath></actionSoundPath>
+																<attachedActions size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</first>
+												<second>
+													<first>MR</first>
+													<second>Click</second>
+												</second>
+											</value5>
+											<value6>
+												<first>
+													<polymorphic_id>8</polymorphic_id>
+													<ptr_wrapper>
+														<id>2147483673</id>
+														<data>
+															<base>
+																<name></name>
+																<id>{6c28eec3-0cd9-40e4-a7dd-391c4ca14c56}</id>
+																<repeatOptions>
+																	<repeatCount>1</repeatCount>
+																	<repeatMode>NoRepeat</repeatMode>
+																	<delay>0</delay>
+																	<delayMode>Constant</delayMode>
+																	<randomDelayFrom>0</randomDelayFrom>
+																	<randomDelayTo>0</randomDelayTo>
+																</repeatOptions>
+																<executionHints>
+																	<terminateOnSecondExec>false</terminateOnSecondExec>
+																	<restartOnSecondExec>false</restartOnSecondExec>
+																	<execHint>OnPress</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
+																</executionHints>
+																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
+																<actionSoundPath></actionSoundPath>
+																<attachedActions size="dynamic"/>
+															</base>
+															<switchType>SwitchToHardware</switchType>
+															<loop>true</loop>
+															<profiles size="dynamic"/>
+															<folderOnlyVisible>false</folderOnlyVisible>
+														</data>
+													</ptr_wrapper>
+												</first>
+												<second>
+													<first>Key_Profile</first>
+													<second>Click</second>
+												</second>
+											</value6>
+										</default_actions>
+									</data>
+								</ptr_wrapper>
+							</value4>
+							<value5>
+								<polymorphic_id>2147483672</polymorphic_id>
+								<polymorphic_name>WinlockIndicatorProperty::Proxy</polymorphic_name>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<cereal_class_version>200</cereal_class_version>
+										<base/>
+										<properties size="dynamic">
+											<value0>
+												<key>true</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<cereal_class_version>200</cereal_class_version>
+															<base/>
+															<enabledIndicatorColor>#ffff0000</enabledIndicatorColor>
+															<disabledIndicatorColor>#ff000000</disabledIndicatorColor>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value0>
+											<value1>
+												<key>false</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base/>
+															<enabledIndicatorColor>#ff00ffff</enabledIndicatorColor>
+															<disabledIndicatorColor>#ffff0000</disabledIndicatorColor>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value1>
+										</properties>
+									</data>
+								</ptr_wrapper>
+							</value5>
+							<value6>
+								<polymorphic_id>14</polymorphic_id>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<base/>
+										<properties size="dynamic">
+											<value0>
+												<key>StandardRgb</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base>
+																<base/>
+																<layers size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value0>
+											<value1>
+												<key>StandardSingleColor</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base>
+																<base/>
+																<layers size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value1>
+											<value2>
+												<key>ZoneRgb</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base>
+																<base/>
+																<layers size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value2>
+										</properties>
+									</data>
+								</ptr_wrapper>
 							</value6>
 							<value7>
-								<polymorphic_id>2147483674</polymorphic_id>
+								<polymorphic_id>2147483673</polymorphic_id>
 								<polymorphic_name>ProfileIndicatorProperty</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -1922,7 +1400,7 @@
 								</ptr_wrapper>
 							</value7>
 							<value8>
-								<polymorphic_id>2147483675</polymorphic_id>
+								<polymorphic_id>2147483674</polymorphic_id>
 								<polymorphic_name>BrightnessIndicatorProperty::Proxy</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -1962,7 +1440,7 @@
 								</ptr_wrapper>
 							</value8>
 							<value9>
-								<polymorphic_id>17</polymorphic_id>
+								<polymorphic_id>12</polymorphic_id>
 								<ptr_wrapper>
 									<valid>1</valid>
 									<data>
@@ -1976,7 +1454,8 @@
 														<valid>1</valid>
 														<data>
 															<base/>
-															<cookie>0</cookie>
+															<basicModeCookieValue>0</basicModeCookieValue>
+															<advancedModeCookieValue>0</advancedModeCookieValue>
 														</data>
 													</ptr_wrapper>
 												</value>
@@ -1989,7 +1468,8 @@
 														<valid>1</valid>
 														<data>
 															<base/>
-															<cookie>0</cookie>
+															<basicModeCookieValue>0</basicModeCookieValue>
+															<advancedModeCookieValue>0</advancedModeCookieValue>
 														</data>
 													</ptr_wrapper>
 												</value>
@@ -1999,7 +1479,7 @@
 								</ptr_wrapper>
 							</value9>
 							<value10>
-								<polymorphic_id>12</polymorphic_id>
+								<polymorphic_id>10</polymorphic_id>
 								<ptr_wrapper>
 									<valid>1</valid>
 									<data>
@@ -2025,10 +1505,10 @@
 										<default_actions size="dynamic">
 											<value0>
 												<first>
-													<polymorphic_id>2147483676</polymorphic_id>
+													<polymorphic_id>2147483675</polymorphic_id>
 													<polymorphic_name>EqPresetSwitchingAction</polymorphic_name>
 													<ptr_wrapper>
-														<id>2147483710</id>
+														<id>2147483674</id>
 														<data>
 															<cereal_class_version>200</cereal_class_version>
 															<base>
@@ -2046,6 +1526,7 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnRelease</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
@@ -2061,10 +1542,10 @@
 											</value0>
 											<value1>
 												<first>
-													<polymorphic_id>2147483677</polymorphic_id>
+													<polymorphic_id>2147483676</polymorphic_id>
 													<polymorphic_name>DolbyStateChangeAction</polymorphic_name>
 													<ptr_wrapper>
-														<id>2147483711</id>
+														<id>2147483675</id>
 														<data>
 															<cereal_class_version>200</cereal_class_version>
 															<base>
@@ -2082,6 +1563,7 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnPressLong</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
@@ -2097,10 +1579,10 @@
 											</value1>
 											<value2>
 												<first>
-													<polymorphic_id>2147483678</polymorphic_id>
+													<polymorphic_id>2147483677</polymorphic_id>
 													<polymorphic_name>MicMuteAction</polymorphic_name>
 													<ptr_wrapper>
-														<id>2147483712</id>
+														<id>2147483676</id>
 														<data>
 															<cereal_class_version>200</cereal_class_version>
 															<base>
@@ -2118,6 +1600,7 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnRelease</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
@@ -2133,10 +1616,10 @@
 											</value2>
 											<value3>
 												<first>
-													<polymorphic_id>2147483679</polymorphic_id>
+													<polymorphic_id>2147483678</polymorphic_id>
 													<polymorphic_name>SidetoneMuteAction</polymorphic_name>
 													<ptr_wrapper>
-														<id>2147483713</id>
+														<id>2147483677</id>
 														<data>
 															<cereal_class_version>200</cereal_class_version>
 															<base>
@@ -2154,6 +1637,7 @@
 																	<terminateOnSecondExec>false</terminateOnSecondExec>
 																	<restartOnSecondExec>false</restartOnSecondExec>
 																	<execHint>OnPressLong</execHint>
+																	<retainOriginalKeyOutput>false</retainOriginalKeyOutput>
 																</executionHints>
 																<actionLighting>{00000000-0000-0000-0000-000000000000}</actionLighting>
 																<actionSoundPath></actionSoundPath>
@@ -2172,29 +1656,14 @@
 								</ptr_wrapper>
 							</value0>
 							<value1>
-								<polymorphic_id>13</polymorphic_id>
+								<polymorphic_id>14</polymorphic_id>
 								<ptr_wrapper>
 									<valid>1</valid>
 									<data>
 										<base/>
 										<properties size="dynamic">
 											<value0>
-												<key>true</key>
-												<value>
-													<polymorphic_id>1073741824</polymorphic_id>
-													<ptr_wrapper>
-														<valid>1</valid>
-														<data>
-															<base>
-																<base/>
-																<layers size="dynamic"/>
-															</base>
-														</data>
-													</ptr_wrapper>
-												</value>
-											</value0>
-											<value1>
-												<key>false</key>
+												<key>StandardRgb</key>
 												<value>
 													<polymorphic_id>1073741824</polymorphic_id>
 													<ptr_wrapper>
@@ -2204,10 +1673,10 @@
 																<base/>
 																<layers size="dynamic">
 																	<value0>
-																		<polymorphic_id>2147483680</polymorphic_id>
+																		<polymorphic_id>2147483679</polymorphic_id>
 																		<polymorphic_name>BasicLightingLayer</polymorphic_name>
 																		<ptr_wrapper>
-																			<id>2147483714</id>
+																			<id>2147483678</id>
 																			<data>
 																				<cereal_class_version>200</cereal_class_version>
 																				<base>
@@ -2254,12 +1723,54 @@
 														</data>
 													</ptr_wrapper>
 												</value>
+											</value0>
+											<value1>
+												<key>StandardSingleColor</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base>
+																<base/>
+																<layers size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</value>
 											</value1>
+											<value2>
+												<key>ZoneRgb</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base>
+																<base/>
+																<layers size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value2>
 										</properties>
 									</data>
 								</ptr_wrapper>
 							</value1>
 							<value2>
+								<polymorphic_id>2147483680</polymorphic_id>
+								<polymorphic_name>IndicatorBrightnessProperty</polymorphic_name>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<cereal_class_version>200</cereal_class_version>
+										<base/>
+										<IndicatorBrightness>50</IndicatorBrightness>
+									</data>
+								</ptr_wrapper>
+							</value2>
+							<value3>
 								<polymorphic_id>2147483681</polymorphic_id>
 								<polymorphic_name>DolbyProperty</polymorphic_name>
 								<ptr_wrapper>
@@ -2270,33 +1781,9 @@
 										<enabled>false</enabled>
 									</data>
 								</ptr_wrapper>
-							</value2>
-							<value3>
-								<polymorphic_id>2147483682</polymorphic_id>
-								<polymorphic_name>IndicatorBrightnessProperty</polymorphic_name>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<cereal_class_version>200</cereal_class_version>
-										<base/>
-										<IndicatorBrightness>50</IndicatorBrightness>
-									</data>
-								</ptr_wrapper>
 							</value3>
 							<value4>
-								<polymorphic_id>2147483683</polymorphic_id>
-								<polymorphic_name>BatteryProperty</polymorphic_name>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<cereal_class_version>200</cereal_class_version>
-										<base/>
-										<lowBatteryIntervalIndex>0</lowBatteryIntervalIndex>
-									</data>
-								</ptr_wrapper>
-							</value4>
-							<value5>
-								<polymorphic_id>2147483684</polymorphic_id>
+								<polymorphic_id>2147483682</polymorphic_id>
 								<polymorphic_name>SidetoneProperty</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -2307,9 +1794,21 @@
 										<level>0</level>
 									</data>
 								</ptr_wrapper>
+							</value4>
+							<value5>
+								<polymorphic_id>2147483683</polymorphic_id>
+								<polymorphic_name>BatteryProperty</polymorphic_name>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<cereal_class_version>200</cereal_class_version>
+										<base/>
+										<lowBatteryIntervalIndex>0</lowBatteryIntervalIndex>
+									</data>
+								</ptr_wrapper>
 							</value5>
 							<value6>
-								<polymorphic_id>2147483685</polymorphic_id>
+								<polymorphic_id>2147483684</polymorphic_id>
 								<polymorphic_name>MicrophoneProperty</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -2323,7 +1822,7 @@
 								</ptr_wrapper>
 							</value6>
 							<value7>
-								<polymorphic_id>2147483686</polymorphic_id>
+								<polymorphic_id>2147483685</polymorphic_id>
 								<polymorphic_name>PresetsProperty</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -2334,11 +1833,10 @@
 										<forceIndexChange>false</forceIndexChange>
 										<presets size="dynamic">
 											<value0>
-												<polymorphic_id>1073741824</polymorphic_id>
 												<ptr_wrapper>
-													<id>2147483715</id>
+													<id>2147483679</id>
 													<data>
-														<cereal_class_version>200</cereal_class_version>
+														<cereal_class_version>201</cereal_class_version>
 														<id>{df65cb3e-f06b-49e4-9376-adba2c0caf6e}</id>
 														<name>Pure Direct</name>
 														<stages size="dynamic">
@@ -2354,13 +1852,13 @@
 															<value9>0</value9>
 														</stages>
 														<visible>true</visible>
+														<linkSliders>false</linkSliders>
 													</data>
 												</ptr_wrapper>
 											</value0>
 											<value1>
-												<polymorphic_id>1073741824</polymorphic_id>
 												<ptr_wrapper>
-													<id>2147483716</id>
+													<id>2147483680</id>
 													<data>
 														<id>{c1d3947b-493e-42c6-9503-dd63d6c40012}</id>
 														<name>Movie Theater</name>
@@ -2377,13 +1875,13 @@
 															<value9>-1.601503759398492</value9>
 														</stages>
 														<visible>true</visible>
+														<linkSliders>false</linkSliders>
 													</data>
 												</ptr_wrapper>
 											</value1>
 											<value2>
-												<polymorphic_id>1073741824</polymorphic_id>
 												<ptr_wrapper>
-													<id>2147483717</id>
+													<id>2147483681</id>
 													<data>
 														<id>{138c0b33-bc2c-42ff-96c8-190328221a5a}</id>
 														<name>FPS Competition</name>
@@ -2400,13 +1898,13 @@
 															<value9>-1.000000000000002</value9>
 														</stages>
 														<visible>true</visible>
+														<linkSliders>false</linkSliders>
 													</data>
 												</ptr_wrapper>
 											</value2>
 											<value3>
-												<polymorphic_id>1073741824</polymorphic_id>
 												<ptr_wrapper>
-													<id>2147483718</id>
+													<id>2147483682</id>
 													<data>
 														<id>{861c1fd2-fafa-485c-ae46-64fe006e583f}</id>
 														<name>Clear Chat</name>
@@ -2423,13 +1921,13 @@
 															<value9>1.075187969924823</value9>
 														</stages>
 														<visible>true</visible>
+														<linkSliders>false</linkSliders>
 													</data>
 												</ptr_wrapper>
 											</value3>
 											<value4>
-												<polymorphic_id>1073741824</polymorphic_id>
 												<ptr_wrapper>
-													<id>2147483719</id>
+													<id>2147483683</id>
 													<data>
 														<id>{ace12c08-a7e1-4a87-8110-555e383ce327}</id>
 														<name>Bass Boost</name>
@@ -2446,6 +1944,7 @@
 															<value9>0.54135338345864881</value9>
 														</stages>
 														<visible>true</visible>
+														<linkSliders>false</linkSliders>
 													</data>
 												</ptr_wrapper>
 											</value4>
@@ -2461,7 +1960,7 @@
 								</ptr_wrapper>
 							</value7>
 							<value8>
-								<polymorphic_id>2147483687</polymorphic_id>
+								<polymorphic_id>2147483686</polymorphic_id>
 								<polymorphic_name>PredefinedLightingEffectsProperty</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -2472,7 +1971,7 @@
 								</ptr_wrapper>
 							</value8>
 							<value9>
-								<polymorphic_id>17</polymorphic_id>
+								<polymorphic_id>12</polymorphic_id>
 								<ptr_wrapper>
 									<valid>1</valid>
 									<data>
@@ -2486,7 +1985,8 @@
 														<valid>1</valid>
 														<data>
 															<base/>
-															<cookie>0</cookie>
+															<basicModeCookieValue>0</basicModeCookieValue>
+															<advancedModeCookieValue>0</advancedModeCookieValue>
 														</data>
 													</ptr_wrapper>
 												</value>
@@ -2499,7 +1999,8 @@
 														<valid>1</valid>
 														<data>
 															<base/>
-															<cookie>0</cookie>
+															<basicModeCookieValue>0</basicModeCookieValue>
+															<advancedModeCookieValue>0</advancedModeCookieValue>
 														</data>
 													</ptr_wrapper>
 												</value>
@@ -2509,7 +2010,7 @@
 								</ptr_wrapper>
 							</value9>
 							<value10>
-								<polymorphic_id>12</polymorphic_id>
+								<polymorphic_id>10</polymorphic_id>
 								<ptr_wrapper>
 									<valid>1</valid>
 									<data>
@@ -2526,7 +2027,7 @@
 					<value>
 						<properties size="dynamic">
 							<value0>
-								<polymorphic_id>2147483688</polymorphic_id>
+								<polymorphic_id>2147483687</polymorphic_id>
 								<polymorphic_name>OSDProperty</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -2540,7 +2041,7 @@
 								</ptr_wrapper>
 							</value0>
 							<value1>
-								<polymorphic_id>2147483689</polymorphic_id>
+								<polymorphic_id>2147483688</polymorphic_id>
 								<polymorphic_name>XDLProfileProperty</polymorphic_name>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -2553,7 +2054,7 @@
 										<layer>
 											<polymorphic_id>1073741824</polymorphic_id>
 											<ptr_wrapper>
-												<id>2147483720</id>
+												<id>2147483684</id>
 												<data>
 													<base>
 														<name></name>
@@ -2584,6 +2085,101 @@
 					<value>
 						<properties size="dynamic">
 							<value0>
+								<polymorphic_id>14</polymorphic_id>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<base/>
+										<properties size="dynamic">
+											<value0>
+												<key>StandardRgb</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base>
+																<base/>
+																<layers size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value0>
+											<value1>
+												<key>StandardSingleColor</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base>
+																<base/>
+																<layers size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value1>
+											<value2>
+												<key>ZoneRgb</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base>
+																<base/>
+																<layers size="dynamic"/>
+															</base>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value2>
+										</properties>
+									</data>
+								</ptr_wrapper>
+							</value0>
+							<value1>
+								<polymorphic_id>12</polymorphic_id>
+								<ptr_wrapper>
+									<valid>1</valid>
+									<data>
+										<base/>
+										<properties size="dynamic">
+											<value0>
+												<key>true</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base/>
+															<basicModeCookieValue>0</basicModeCookieValue>
+															<advancedModeCookieValue>0</advancedModeCookieValue>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value0>
+											<value1>
+												<key>false</key>
+												<value>
+													<polymorphic_id>1073741824</polymorphic_id>
+													<ptr_wrapper>
+														<valid>1</valid>
+														<data>
+															<base/>
+															<basicModeCookieValue>0</basicModeCookieValue>
+															<advancedModeCookieValue>0</advancedModeCookieValue>
+														</data>
+													</ptr_wrapper>
+												</value>
+											</value1>
+										</properties>
+									</data>
+								</ptr_wrapper>
+							</value1>
+							<value2>
 								<polymorphic_id>17</polymorphic_id>
 								<ptr_wrapper>
 									<valid>1</valid>
@@ -2597,43 +2193,6 @@
 													<ptr_wrapper>
 														<valid>1</valid>
 														<data>
-															<base/>
-															<cookie>0</cookie>
-														</data>
-													</ptr_wrapper>
-												</value>
-											</value0>
-											<value1>
-												<key>false</key>
-												<value>
-													<polymorphic_id>1073741824</polymorphic_id>
-													<ptr_wrapper>
-														<valid>1</valid>
-														<data>
-															<base/>
-															<cookie>0</cookie>
-														</data>
-													</ptr_wrapper>
-												</value>
-											</value1>
-										</properties>
-									</data>
-								</ptr_wrapper>
-							</value0>
-							<value1>
-								<polymorphic_id>25</polymorphic_id>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<base/>
-										<properties size="dynamic">
-											<value0>
-												<key>true</key>
-												<value>
-													<polymorphic_id>1073741824</polymorphic_id>
-													<ptr_wrapper>
-														<valid>1</valid>
-														<data>
 															<base>
 																<base/>
 																<layers size="dynamic"/>
@@ -2660,55 +2219,14 @@
 										</properties>
 									</data>
 								</ptr_wrapper>
-							</value1>
-							<value2>
-								<polymorphic_id>12</polymorphic_id>
+							</value2>
+							<value3>
+								<polymorphic_id>10</polymorphic_id>
 								<ptr_wrapper>
 									<valid>1</valid>
 									<data>
 										<base/>
 										<enabled>true</enabled>
-									</data>
-								</ptr_wrapper>
-							</value2>
-							<value3>
-								<polymorphic_id>13</polymorphic_id>
-								<ptr_wrapper>
-									<valid>1</valid>
-									<data>
-										<base/>
-										<properties size="dynamic">
-											<value0>
-												<key>true</key>
-												<value>
-													<polymorphic_id>1073741824</polymorphic_id>
-													<ptr_wrapper>
-														<valid>1</valid>
-														<data>
-															<base>
-																<base/>
-																<layers size="dynamic"/>
-															</base>
-														</data>
-													</ptr_wrapper>
-												</value>
-											</value0>
-											<value1>
-												<key>false</key>
-												<value>
-													<polymorphic_id>1073741824</polymorphic_id>
-													<ptr_wrapper>
-														<valid>1</valid>
-														<data>
-															<base>
-																<base/>
-																<layers size="dynamic"/>
-															</base>
-														</data>
-													</ptr_wrapper>
-												</value>
-											</value1>
-										</properties>
 									</data>
 								</ptr_wrapper>
 							</value3>
@@ -2718,8 +2236,8 @@
 			</properties>
 			<isHardware>false</isHardware>
 			<RGBShareMeta>
-				<CueVersion>2.5.66</CueVersion>
-				<ProfileVersion>2.3.42</ProfileVersion>
+				<CueVersion>2.15.83</CueVersion>
+				<ProfileVersion>2.13.17</ProfileVersion>
 				<KeyboardModel>Demo K95 RGB</KeyboardModel>
 				<MouseModel>Scimitar</MouseModel>
 				<HeadsetModel>Demo VOID WIRELESS</HeadsetModel>
@@ -2735,13 +2253,13 @@
 		</profile>
 		<dpiMode>
 			<cereal_class_version>200</cereal_class_version>
-			<id>{6e1d0475-34c9-4a67-b3f4-24d762e28fca}</id>
-			<name>Default</name>
+			<id>{a9bb5e80-5bbb-4b9a-bdae-e3e287b8629c}</id>
+			<name>Default (9)</name>
 			<settings size="dynamic">
 				<value0>
 					<polymorphic_id>1073741824</polymorphic_id>
 					<ptr_wrapper>
-						<id>2147483721</id>
+						<id>2147483685</id>
 						<data>
 							<cereal_class_version>200</cereal_class_version>
 							<index>0</index>
@@ -2757,7 +2275,7 @@
 				<value1>
 					<polymorphic_id>1073741824</polymorphic_id>
 					<ptr_wrapper>
-						<id>2147483722</id>
+						<id>2147483686</id>
 						<data>
 							<index>1</index>
 							<default>true</default>
@@ -2772,7 +2290,7 @@
 				<value2>
 					<polymorphic_id>1073741824</polymorphic_id>
 					<ptr_wrapper>
-						<id>2147483723</id>
+						<id>2147483687</id>
 						<data>
 							<index>2</index>
 							<default>false</default>
@@ -2787,7 +2305,7 @@
 				<value3>
 					<polymorphic_id>1073741824</polymorphic_id>
 					<ptr_wrapper>
-						<id>2147483724</id>
+						<id>2147483688</id>
 						<data>
 							<index>3</index>
 							<default>false</default>
@@ -2802,7 +2320,7 @@
 				<value4>
 					<polymorphic_id>1073741824</polymorphic_id>
 					<ptr_wrapper>
-						<id>2147483725</id>
+						<id>2147483689</id>
 						<data>
 							<index>4</index>
 							<default>false</default>
@@ -2818,7 +2336,7 @@
 			<sniper>
 				<polymorphic_id>1073741824</polymorphic_id>
 				<ptr_wrapper>
-					<id>2147483726</id>
+					<id>2147483690</id>
 					<data>
 						<index>5</index>
 						<default>false</default>
@@ -2836,7 +2354,19 @@
 			<defaultModeIndex>0</defaultModeIndex>
 			<isDefault>false</isDefault>
 		</dpiMode>
-		<aditional>false</aditional>
+		<dpiModeAdditional>
+			<id>{dd8ce69b-22b9-4457-ba4a-d79a69bbcaff}</id>
+			<name></name>
+			<settings size="dynamic"/>
+			<sniper>
+				<polymorphic_id>0</polymorphic_id>
+			</sniper>
+			<active>false</active>
+			<independent>false</independent>
+			<defaultIndex>-1</defaultIndex>
+			<defaultModeIndex>-1</defaultModeIndex>
+			<isDefault>false</isDefault>
+		</dpiModeAdditional>
 	</value0>
 </cereal>
 
