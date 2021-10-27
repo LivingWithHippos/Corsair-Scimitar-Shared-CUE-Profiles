@@ -1,5 +1,10 @@
 # Corsair-Scimitar-Shared-CUE-Profiles
 
+## Compatibility issue
+
+[iCue 4 is not compatible anymore with the Scimitar mouse](https://help.corsair.com/hc/en-us/articles/360061456892-iCUE-is-not-detecting-certain-Corsair-devices). Use the [latest 3.x version you can find](https://www.corsair.com/ww/en/downloads)
+
+
 A collection of keybind profiles for the Corsair Scimitar
 
 I looked on the internet to find some ready profiles for my games but I couldn't find any, so here they are.
